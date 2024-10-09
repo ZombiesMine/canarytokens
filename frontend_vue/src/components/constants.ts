@@ -123,6 +123,7 @@ export const MAX_APP_NAME_LENGTH = 30;
 export const TOKEN_COLOR_PALETTES: { [key: string]: Array<string> } = {
   web: ['#424242', '#3B3B3B', '#41D780', '#71E487'],
   dns: ['#38D47F', '#37877E', '#7FF0C2', '#43D88A', '#38907F'],
+  cred: ['#E6E7E8', '#535B67', '#9FF18D', '#4EDA82', '#85EA89'],
   log4shell: ['#F2F2F2', '#E84F40', '#F36A5C', '#FDBCB0'],
   qr_code: ['#B4B4B4', '#E2E3E3', '#A0A0A0', '#737373'],
   my_sql: ['#C2E7EF', '#AEDAE6', '#126E93'],
