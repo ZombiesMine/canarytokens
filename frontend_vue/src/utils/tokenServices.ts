@@ -44,6 +44,20 @@ export const tokenServices: TokenServicesType = {
     category: TOKEN_CATEGORY.OTHER,
     keywords: ['domain'],
   },
+  [TOKENS_TYPE.CRED]: {
+    label: 'SSH Credential',
+    description: 'Get an alert when an attacker tries to login a machine witth a certain username by SSH',
+    documentationLink: 'https://docs.canarytokens.org/guide/dns-token.html',
+    icon: `${TOKENS_TYPE.CRED}.png`,
+    instruction: 'Copy ID and place it with the .service file',
+    howItWorksInstructions: [
+      'We give you a unique ID name.',
+      'You place it in the .service file, whe the desried username(S)',
+      'We send you an alert if someone tried to login to the machine by SSH.',
+    ],
+    category: TOKEN_CATEGORY.OTHER,
+    keywords: ['ssh', 'credential'],
+  },
   [TOKENS_TYPE.QRCODE]: {
     label: 'QR code',
     description: 'Get an alert when an attacker follows your QR Code.',

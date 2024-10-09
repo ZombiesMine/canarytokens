@@ -48,6 +48,9 @@ export const formValidators: ValidateSchemaType = {
   [TOKENS_TYPE.DNS]: {
     schema: Yup.object().shape(validationNotificationSettings),
   },
+  [TOKENS_TYPE.CRED]: {
+    schema: Yup.object().shape(validationNotificationSettings),
+  },
   [TOKENS_TYPE.QRCODE]: {
     schema: Yup.object().shape(validationNotificationSettings),
   },

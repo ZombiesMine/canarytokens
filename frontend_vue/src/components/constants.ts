@@ -12,6 +12,7 @@ to check if a folder name matches a TOKENS_TYPE type
 export const TOKENS_TYPE = {
   WEB_BUG: 'web',
   DNS: 'dns',
+  CRED 'cred',
   LOG4SHELL: 'log4shell',
   QRCODE: 'qr_code',
   MYSQL: 'my_sql',
